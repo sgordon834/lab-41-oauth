@@ -5,7 +5,16 @@
 		<script>
 		
 		</script>
+			
+			let authURL = 'https://accounts.google.com/o/oauth2/v2/auth';
 
+				let options = {
+					client_id:'312430225712-jnth3nggut7gj02hes6mqdf68ogjthjp.apps.googleusercontent.com',
+					redirect_uri: 'https://cf-401n4-johncokos.c9users.io:8082/oauth/google/code',
+					scope: 'email openid profile',
+					prompt: 'consent',
+					response_type: 'code'
+			}
 	</body>
 
 </html>
